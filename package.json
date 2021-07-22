@@ -1,0 +1,29 @@
+{
+  "name": "organizer",
+  "private": true,
+  "dependencies": {
+    "@nathanvda/cocoon": "^1.2.14",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "^5.4.0",
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "roboto-fontface": "^0.10.0",
+    "stimulus-rails-nested-form": "^3.0.0",
+    "turbolinks": "^5.2.0"
+  },
+  "version": "0.1.0",
+  "ruby.useBundler": false,
+  "ruby.useLanguageServer": true,
+  "ruby.lint": {
+    "rubocop": {
+      "useBundler": true
+    },
+    "reek": {
+      "useBundler": true
+    }
+  },
+  "ruby.format": "rubocop"
+}
