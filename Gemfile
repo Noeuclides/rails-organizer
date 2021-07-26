@@ -30,7 +30,6 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'annotate'
 gem 'cancancan'
-gem 'cocoon'
 gem 'devise'
 gem 'simple_form'
 gem 'slim'
